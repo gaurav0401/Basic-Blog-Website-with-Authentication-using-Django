@@ -9,7 +9,9 @@ This is a Blog Website created using Django Framework
 * otherwise user will be redirected to the login page again.
 
 
-### Note: New User  can we created  using  "python manage.py createsuperuser" after running  this command user can create their username and password.
+## Note: New User  can we created  using  "python manage.py createsuperuser" after running  this command user can create their username and password.
+
+
 
 
 
