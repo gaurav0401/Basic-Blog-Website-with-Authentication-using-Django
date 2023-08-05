@@ -4,9 +4,9 @@
 This is a Blog Website created using Django Framework 
 
 ## On this website:
-* user can log in to the blog page using their username and password
-* if their information is correct then the user will be redirected to their blog page.
-* otherwise user will be redirected to the login page again.
+* User can log in to their  blog page using their username and password
+* If their information is correct then the user will be redirected to their blog page.
+* Otherwise user will be redirected to the login page again.
 
 
 ## Note: New User  can we created  using  "python manage.py createsuperuser" after running  this command user can create their username and password.
