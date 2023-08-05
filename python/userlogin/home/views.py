@@ -6,6 +6,9 @@ from django.shortcuts import render , redirect
 # from django.contrib.auth.models import User
 from django.contrib.auth import logout  , authenticate , login
 
+from django.contrib import messages 
+
+
 # Create your views here.
 
 
@@ -23,15 +26,20 @@ def login_user(request):
 
         user=authenticate(username=username , password=passwd)
         if user is not None:
+           
             login(request , user)
+
             return redirect('/')
         else:
+             messages.success(request, "Login Failed...try again ")
              return render(request ,  'login.html')
+   
     return render(request ,  'login.html')
 
 def logout_user(request):
-
+   
     logout(request )
+    messages.success(request, "You have been logged out.....")
 
     return redirect('/login')
 

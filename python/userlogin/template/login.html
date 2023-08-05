@@ -79,10 +79,19 @@
 </head>
 
 <body>
+    
     <div class="container">
-        <h2>Login</h2>
+        <h2>Login Here</h2>
         <form method="post" action="/login">
             {% csrf_token %}
+            <p  >{% if messages %}
+                {% for message in messages %}
+                      <div class="alert alert-{{ message.tags }} alert-dismissible fade show my-0  py-0 " role="alert" style="font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                        {{ message }}
+                       
+                      </div>
+                      {% endfor %}
+                {% endif %}</p>
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
