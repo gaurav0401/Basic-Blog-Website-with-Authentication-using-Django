@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Reset some default styles to start from a clean slate */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.blog-post {
+    margin-bottom: 2rem;
+}
+
+.blog-post h2 {
+    font-size: 1.8rem;
+}
+
+.blog-post .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.blog-post img {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to {{request.user}}'s   Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="blog-post">
+            <h2>Blog Post Title 1</h2>
+            <p class="post-meta">Posted on August 5, 2023 by John Doe</p>
+            <img src="https://source.unsplash.com/random/200x200/?blog&1" alt="Blog Post 1">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam a ex nec dui sollicitudin tincidunt.
+                Fusce rhoncus fringilla fermentum. Quisque maximus quam
+                vel varius. Etiam ultrices tincidunt lacus, in sagittis
+                libero luctus non.
+            </p>
+        </section>
+        
+        <section class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p class="post-meta">Posted on August 6, 2023 by Jane Smith</p>
+            <img src="https://source.unsplash.com/random/200x200/?blog&2" alt="Blog Post 2">
+            <p>
+                Vestibulum et turpis luctus, hendrerit nisl eu, tincidunt
+                libero. Phasellus ac quam ac dolor ullamcorper dictum.
+                Nulla vitae mauris et ante semper egestas.
+                Proin consequat tellus id felis lacinia ultrices.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
