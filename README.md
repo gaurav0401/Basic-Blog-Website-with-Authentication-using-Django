@@ -25,9 +25,13 @@ This is a Blog Website created using Django Framework
 ![image](https://github.com/gaurav0401/Basic-Blog-Website-with-Authentication-using-Django/assets/80095859/ec09f7df-a020-4482-af1e-db59b20f361b)
 
 
-# Screenshot 3 (Sucess login on the blog page)
+# Screenshot 3 (Successful login to  the blog page)
 
-![image](https://github.com/gaurav0401/Basic-Blog-Website-with-Authentication-using-Django/assets/80095859/dce3d969-b9aa-4eb7-819b-86b0994537b8)
+![image](https://github.com/gaurav0401/Basic-Blog-Website-with-Authentication-using-Django/assets/80095859/7ae65518-946e-4a5e-bbe9-d85acd4b2359)
+
+
+![image](https://github.com/gaurav0401/Basic-Blog-Website-with-Authentication-using-Django/assets/80095859/76d39209-38a1-4aea-899a-158a06b8d06e)
+
 
 
 # Screenshot 4 (In case the user entered the wrong username or  password)
@@ -36,7 +40,7 @@ This is a Blog Website created using Django Framework
 
 
 
-# Screenshot 5 (In case user logout from page)
+# Screenshot 5 (In case the user logout from the page)
 
 ![image](https://github.com/gaurav0401/Basic-Blog-Website-with-Authentication-using-Django/assets/80095859/be4f25b0-db55-4a56-a2ba-a5800e636588)
 
